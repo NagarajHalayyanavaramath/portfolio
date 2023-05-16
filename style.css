@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+/* reusable grid columns */
+.grid {
+  display: grid;
+  column-gap: 9.6rem;
+  row-gap: 6.4rem;
+  margin-bottom: 9.6rem;
+}
+.grid:last-child {
+  margin-bottom: 0;
+}
+.grid--align--items {
+  align-items: center;
+}
+.grid--2--columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3--columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4--columns {
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+.grid--5--columns {
+  grid-template-columns: repeat(5, 1fr);
+}
+/* Main Section */
+.main--section {
+  padding: 4.6rem 0 9.6rem 0;
+  background-color: #a5d8ff;
+}
+.main {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+.mainimg {
+  width: 70rem;
+  height: 70rem;
+  transition: all 0.4s;
+}
+.mainimg:hover {
+  transform: translateY(-1.2rem);
+}
+.main-heading {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.05;
+  color: #3f4144;
+  letter-spacing: -0.5;
+  margin-bottom: 3.2rem;
+}
+.description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+  font-weight: 500;
+}
+.btn-explore:link,
+.btn-explore:visited {
+  background-color: #fff;
+  color: #444343;
+  display: inline-block;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 9px;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn-explore:hover,
+.btn-explore:active {
+  background-color: #3bc9db;
+  color: #fff;
+}
+/* Education Section */
+.education-section {
+  background-color: #d0ebff;
+  padding: 9.6rem 0;
+}
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.6rem;
+}
+.sub-heading {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 3.2rem;
+  color: #343a40;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 9.6rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.edu-icon {
+  margin-top: 0.5rem;
+}
+.edu-heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #495057;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+.college {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #495057;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.education {
+  width: 100rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 4.8rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  transition: all 0.4s;
+}
+.education:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+.edu-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.edu-attributes {
+  font-weight: 400;
+  font-size: 1.6rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.first,
+.second {
+  margin-bottom: 4.8rem;
+}
+/* Skills Sections */
+.skills-section {
+  padding: 9.6rem 0;
+  background-color: #a5d8ff;
+}
+.skill-container {
+  width: 130rem;
+  margin: 0 auto;
+}
+.logo {
+  width: 50%;
+}
+.logo:hover {
+  transform: translateY(-1.2rem);
+}
+.skill-logo {
+  transition: all 0.4s;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #3f4144;
+  font-family: inherit;
+}
+.skill1 {
+  margin-left: 2.5rem;
+}
+.skill2 {
+  margin-left: 3.5rem;
+}
+.slill4 {
+  margin-left: 2rem;
+}
